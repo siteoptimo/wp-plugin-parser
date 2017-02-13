@@ -1,0 +1,20 @@
+{
+  "name": "siteoptimo/wp-plugin-parser",
+  "description": "Parse WordPress plugin zip-files to extract a plugin's metadata.",
+  "minimum-stability": "dev",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Koen Van den Wijngaert",
+      "email": "koen@koenvandenwijngaert.be"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "SiteOptimo\\WpPluginParser": "src"
+    }
+  },
+  "require": {
+    "ext-zip": "*"
+  }
+}
